@@ -2,21 +2,48 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Are We * Yet?</title>
+    <title>Are We in Firefox Yet?</title>
     <link href='static/page.css' rel='stylesheet' type='text/css'>
     <script src='static/areweyet/chart.js'></script>
 </head>
 <body>
-  <h1>Are We * Yet?</h1>
+  <h1>Are We in Firefox Yet?</h1>
   <div id="links" hidden="true">
-    <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=N">Metabug</a>
+    <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1751763">Metabug</a>
     |
     <a href="./">Home</a>
   </div>
 
   <div class="summary-box">
     <p>
-      <strong>Are We * Yet</strong> is a template site for sharing updates to Mozilla projects.
+      <strong>Are We in Firefox Yet</strong> tracks bugzilla progress to showing Relay to all Firefox users.
+    </p>
+    <hr />
+  </div>
+
+  <div  style="width: 70%" class="iframe-container">
+    <div>
+        <iframe src="./burnup/?since=2019-11-18&f1=blocked&o1=anywords&v1=1751763"></iframe>
+    </div>
+  </div>
+
+  <div class="milestones">
+    <div class="desc-box">
+      <h2>Milestone 1: Show Relay to FxA users in Firefox</h2>
+      <p>
+        Show Relay to Firefox browsers that are signed into FxA.
+      </p>
+    </div>
+    <div class="desc-box">
+      <h2>Milestone 2 Show Relay to all Firefox users</h2>
+      <p>
+        Show Relay to all Firefox browsers.
+      </p>
+    </div>
+  </div>
+
+  <div class="summary-box">
+    <p>
       <ul>
         <li>A list of all "are we yet" project sites is kept at <a href="https://wiki.mozilla.org/Areweyet">https://wiki.mozilla.org/Areweyet</a></li>
         <li>The source for this projet can be found at <a href="https://github.com/bgrins/areweyet">https://github.com/bgrins/areweyet</a></li>
@@ -24,33 +51,6 @@
       </ul>
     </p>
     <hr />
-  </div>
-
-  <div  style="width: 70%" class="iframe-container">
-    <div>
-        <iframe src="./burnup/?since=2019-11-18&f1=blocked&o1=anywords&v1=1467214"></iframe>
-    </div>
-  </div>
-
-  <div class="milestones">
-    <div class="desc-box">
-      <h2>Milestone 1</h2>
-      <p>
-        Description
-      </p>
-    </div>
-    <div class="desc-box">
-      <h2>Milestone 2</h2>
-      <p>
-        Description
-      </p>
-    </div>
-    <div class="desc-box">
-      <h2>Milestone 3</h2>
-      <p>
-        Description
-      </p>
-    </div>
   </div>
 </body>
 </html>
