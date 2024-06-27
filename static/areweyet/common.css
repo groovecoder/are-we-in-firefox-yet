@@ -193,6 +193,17 @@ h1 {
   padding-bottom: 18px;
 }
 
+.milestone-done {
+  color: green;
+}
+
+.milestone-done .checkmark {
+  display: inline-block;
+  font-size: 2em;
+  color:green;
+  margin-left: 10px;
+}
+
 .desc-box h2,
 .summary-box h2 {
   font-size: 22px;
